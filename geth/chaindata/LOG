@@ -1,0 +1,100 @@
+=============== May 2, 2024 (MSK) ===============
+14:41:20.804021 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+14:41:20.820700 db@open opening
+14:41:20.821723 version@stat F·[] S·0B[] Sc·[]
+14:41:20.824059 db@janitor F·2 G·0
+14:41:20.824059 db@open done T·3.3597ms
+14:41:20.867909 db@close closing
+14:41:20.867909 db@close done T·0s
+=============== May 2, 2024 (MSK) ===============
+14:41:23.004381 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+14:41:23.004381 version@stat F·[] S·0B[] Sc·[]
+14:41:23.004381 db@open opening
+14:41:23.004381 journal@recovery F·1
+14:41:23.005381 journal@recovery recovering @1
+14:41:23.018670 memdb@flush created L0@2 N·24 S·1KiB "!q^..\xa0\xae+,v12":"\xf1\x99\xac..\x13\xd2(,v8"
+14:41:23.020250 version@stat F·[1] S·1KiB[1KiB] Sc·[0.25]
+14:41:23.026438 db@janitor F·3 G·0
+14:41:23.026438 db@open done T·22.0577ms
+14:43:52.038501 db@close closing
+14:43:52.038501 db@close done T·0s
+=============== May 2, 2024 (MSK) ===============
+14:44:38.460164 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+14:44:38.460684 version@stat F·[1] S·1KiB[1KiB] Sc·[0.25]
+14:44:38.460684 db@open opening
+14:44:38.460684 journal@recovery F·1
+14:44:38.462285 journal@recovery recovering @3
+14:44:38.463866 memdb@flush created L0@5 N·16 S·816B "Dat..ion,v27":"unc..own,v38"
+14:44:38.465419 version@stat F·[2] S·2KiB[2KiB] Sc·[0.50]
+14:44:38.473600 db@janitor F·4 G·0
+14:44:38.473600 db@open done T·12.916ms
+14:44:47.399011 db@close closing
+14:44:47.399011 db@close done T·0s
+=============== May 2, 2024 (MSK) ===============
+14:45:08.916789 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+14:45:08.917323 version@stat F·[2] S·2KiB[2KiB] Sc·[0.50]
+14:45:08.917323 db@open opening
+14:45:08.917323 journal@recovery F·1
+14:45:08.918898 journal@recovery recovering @6
+14:45:08.922030 memdb@flush created L0@8 N·5 S·493B "Sna..tor,v45":"unc..own,v44"
+14:45:08.923676 version@stat F·[3] S·2KiB[2KiB] Sc·[0.75]
+14:45:08.929402 db@janitor F·5 G·0
+14:45:08.929402 db@open done T·12.0789ms
+14:45:15.266724 db@close closing
+14:45:15.266724 db@close done T·0s
+=============== May 2, 2024 (MSK) ===============
+14:45:29.896862 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+14:45:29.897379 version@stat F·[3] S·2KiB[2KiB] Sc·[0.75]
+14:45:29.897379 db@open opening
+14:45:29.897379 journal@recovery F·1
+14:45:29.898963 journal@recovery recovering @9
+14:45:29.903381 memdb@flush created L0@11 N·5 S·493B "Sna..tor,v51":"unc..own,v50"
+14:45:29.905041 version@stat F·[4] S·3KiB[3KiB] Sc·[1.00]
+14:45:29.912457 db@janitor F·6 G·0
+14:45:29.912457 db@open done T·15.0789ms
+14:45:29.912457 table@compaction L0·4 -> L1·0 S·3KiB Q·54
+14:45:29.915620 table@build created L1@14 N·34 S·1KiB "!q^..\xa0\xae+,v12":"\xf1\x99\xac..\x13\xd2(,v8"
+14:45:29.915620 version@stat F·[0 1] S·1KiB[0B 1KiB] Sc·[0.00 0.00]
+14:45:29.917716 table@compaction committed F-3 S-1KiB Ke·0 D·16 T·5.2588ms
+14:45:29.918269 table@remove removed @8
+14:45:29.918269 table@remove removed @5
+14:45:29.918269 table@remove removed @2
+14:46:09.516792 db@close closing
+14:46:09.516792 db@close done T·0s
+=============== May 2, 2024 (MSK) ===============
+14:46:21.196980 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+14:46:21.197594 version@stat F·[0 1] S·1KiB[0B 1KiB] Sc·[0.00 0.00]
+14:46:21.197594 db@open opening
+14:46:21.197594 journal@recovery F·1
+14:46:21.199236 journal@recovery recovering @12
+14:46:21.202965 memdb@flush created L0@15 N·5 S·493B "Sna..tor,v57":"unc..own,v56"
+14:46:21.204514 version@stat F·[1 1] S·2KiB[493B 1KiB] Sc·[0.25 0.00]
+14:46:21.212903 db@janitor F·5 G·1
+14:46:21.212903 db@janitor removing table-11
+14:46:21.212903 db@open done T·15.3097ms
+14:46:27.569362 db@close closing
+14:46:27.569877 db@close done T·514.9µs
+=============== May 2, 2024 (MSK) ===============
+14:54:42.437549 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+14:54:42.437549 version@stat F·[1 1] S·2KiB[493B 1KiB] Sc·[0.25 0.00]
+14:54:42.437549 db@open opening
+14:54:42.438100 journal@recovery F·1
+14:54:42.439679 journal@recovery recovering @16
+14:54:42.441745 memdb@flush created L0@18 N·5 S·493B "Sna..tor,v63":"unc..own,v62"
+14:54:42.442805 version@stat F·[2 1] S·2KiB[986B 1KiB] Sc·[0.50 0.00]
+14:54:42.450168 db@janitor F·5 G·0
+14:54:42.450168 db@open done T·12.1157ms
+14:58:29.500393 db@close closing
+14:58:29.501393 db@close done T·1.0001ms
+=============== May 2, 2024 (MSK) ===============
+14:58:41.658150 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+14:58:41.658671 version@stat F·[2 1] S·2KiB[986B 1KiB] Sc·[0.50 0.00]
+14:58:41.658671 db@open opening
+14:58:41.658671 journal@recovery F·1
+14:58:41.660268 journal@recovery recovering @19
+14:58:41.665074 memdb@flush created L0@21 N·2163 S·117KiB "\x06\xce\xde.. \a\r,v2223":"\xf9\xc8\x13..\ueaed,v2224"
+14:58:41.666653 version@stat F·[3 1] S·120KiB[118KiB 1KiB] Sc·[0.75 0.00]
+14:58:41.674078 db@janitor F·6 G·0
+14:58:41.674078 db@open done T·15.4071ms
+16:27:00.584734 db@close closing
+16:27:00.585261 db@close done T·508.3µs
